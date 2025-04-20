@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+.message{
+    display: flex;
+}
+
+#mes{
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 15px 15px 0 15px;
+
+}
+
+#mess{
+    border-radius: 15px 0 0 15px;
+    background-color: rgb(32, 32, 32);
+
+}
+
+.mes{
+    overflow: hidden;
+    padding: 10px 10px 5px 5px;
+    border-radius: 0 15px 15px 0;
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+
+.date{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.199);
+    
+}
+
+.action a{
+    color: red;
+    text-decoration: none;
+}
+
+.action a:hover{
+    color: rgba(255, 61, 61, 0.822);
+}
+
+.report{
+    color: red;
+    cursor: pointer;
+}
