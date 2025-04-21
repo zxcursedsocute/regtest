@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(Desktop\ -\ 1.png);
+    background-size: cover;
+    background: no-repeat repeat-x repeat-y;
+    overflow: hidden;
+}
+
+.Hide-background{
+    display: none;
+    width: 1897px;
+    height: 5333px;
+    position: absolute;
+    background-color: #272626a8;
+    z-index: 30;
+}
+
+.user{
+    display: flex;
+    color: white;
+    gap: 20px;
+    font-size: 20px;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.user a{
+    text-decoration: none;
+    color: white;
+    padding:8px;
+    height: 20px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.user a:hover{
+    background-color: rgb(49, 49, 49);
+}
+
+main{
+    display: flex;
+    margin: 0 auto;
+    width: 1500px;
+    gap: 200px;
+    padding-top: 100px;
+}
+
+.users{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 700px;
+    align-items: center;
+    gap: 10px;
+}
+
+.users::-webkit-scrollbar {
+    width: 0;
+}
+
+.users_user{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(27, 27, 27);
+    text-decoration: none;
+    color: white;
+}
+
+.users_user:hover{
+    background-color: rgba(43, 43, 43, 0.774);
+}
+
+.chat{
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    width: 700px;
+    height: 700px;
+}
+
+.chat::-webkit-scrollbar {
+    width: 0;
+}
+
+.send_mes{
+    display: flex;
+    justify-content: center;
+}
+
+.send_mes input[type=text]{
+    width: 300px;
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.send_mes input[type=submit]{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+.report_form{
+    z-index: 100;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 150px;
+    margin-left: 32%;
+}
+
+.report_form h2{
+    color: white;
+}
+
+.text{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.text p{
+    color: white;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.report_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.report_form input[type=text]{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.report_form select{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.report_form input[type=submit]{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
